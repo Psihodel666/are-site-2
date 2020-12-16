@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Emtsove Danil</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <!--preloader-->
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+  <!--/Preloader-->
+  <div class="wrapper">
+    <footer>
+      <div class="footer-wrapper">
+        <!--Contacts-->
+        <div class="contacts">
+          <h3>Контакты</h3>
+          <div class="russia">
+            <img src="img/ru.png" alt="ru">
+            <a href="#">+7(917)135-08-95</a>
+          </div>
+          <div class="kazakhstan">
+            <img src="img/kz.png" alt="kz">
+            <a href="#">+7(777)251-76-59</a>
+          </div>
+          <div class="ukraine">
+            <img src="img/uk.png" alt="uk">
+            <a href="#">+(380)954-717-553</a>
+          </div>
+        </div>
+        <!--/Contacts-->
+
+        <!--Info-->
+        <div class="info">
+          <h3>Информация</h3>
+          <div class="info-rel">
+            <a href="">о веб-студии <span>twig</span></a>
+            <a href="">пользовательское <span>соглашение</span></a>
+            <a href="">тарифы и <span>услуги</span></a>
+          </div>
+        </div>
+        <!--/Info-->
+        <div class="rel">
+          <h3>Ссылки</h3>
+          <div class="vk">
+            <img src="img/vk.svg" alt="vk">
+            <a href="#">vk.webtwig.com</a>
+          </div>
+          <div class="whatsapp">
+            <img src="img/whatsapp.svg" alt="whatsapp">
+            <a href="#">+7(777)251-76-59</a>
+          </div>
+          <div class="twitter">
+            <img src="img/twitter.svg" alt="twitter">
+            <a href="#">t.webtwigcompany.me</a>
+          </div>
+          <div class="gmail">
+            <img src="img/gmail.svg" alt="gmail">
+            <a href="#">webtwig.company@gmail.com</a>
+          </div>
+        </div>
+        <div class="instagram">
+          <h3>instagram</h3>
+          <img src="img/twig.png" alt="twig">
+          <div class="instagram-rel">
+            <img src="img/instagram.svg" alt="instagram">
+            <a href="#">Webtwig.inst.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="site">      <p>качественный сайт - залог вашего успеха!</p></div>
+    </footer>
+  </div>
+
+  <!--Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(window).on('load', function () {
+      var $preloader = $('#preloader'),
+      $svg_anm   = $preloader.find('.svg_anm');
+      $svg_anm.fadeOut();
+      $preloader.delay(700).fadeOut('slow');
+	  });
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

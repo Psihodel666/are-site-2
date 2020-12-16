@@ -1,0 +1,22 @@
+@media only screen  and (max-width: 1361px){
+	.b-container{
+		display: inline;
+	}
+	
+	.nav-menu{
+		display: none;
+	}
+	
+}
+
+
+
+
+@media only screen  and (max-width: 790px){
+	.b-container{
+		display: flow;
+	}
+	.nav-menu{
+		display: none;
+	}
+}
