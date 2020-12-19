@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<title>Document</title>
 </head>
 <body>
@@ -18,25 +18,27 @@
 	<div class="wrap">
 
 		<div class="header">	<!-- START HEADER -->
-			<div class="b-nav">
-			  <li><a class="b-link" href="#" target="_blank">Главная</a></li>
-			  <li><a class="b-link" href="#" target="_blank">Услуги</a></li>
-			  <li><a class="b-link" href="#" target="_blank">Портфолио</a></li>
-			  <li><a class="b-link" href="#" target="_blank">О Нас</a></li>
-			  <li><a class="b-link" href="№" target="_blank">Контакты</a></li>
-			</div>
+			<div class="burger_mobile">
+				<h1>TWIG<span>Company</span></h1>
 
-			<!-- Burger-Icon -->
-			<div class="b-container">
-			  <div class="b-menu">
-			    <div class="b-bun b-bun--top"></div>
-			    <div class="b-bun b-bun--mid"></div>
-			    <div class="b-bun b-bun--bottom"></div>
-			  </div>
+				<input id="burger" type="checkbox" />
 
-			  <!-- Burger-Brand -->
-			  <a href="#" class="b-brand"></a>
-			</div><!-- END mobile -->
+				<label for="burger">
+				    <span></span>
+				    <span></span>
+				    <span></span>
+				</label>
+
+				<nav>    
+				  <ul>
+				    <li><a href="#">Главная</a></li>
+				    <li><a href="#">Услуги</a></li>
+				    <li><a href="#">Портфолио</a></li>
+				    <li><a href="#">О Нас</a></li>
+				    <li><a href="#">Контакты</a></li>
+				  </ul>  
+				</nav>
+			</div><!-- END burger mobile -->
 			<nav class="nav_menu">
 				<div class="logo">
 					<h1>TWIG <span>Company</span></h1>
@@ -56,7 +58,7 @@
 				<div class="header_text">
 					<h4>мы компания по веб-разработке</h4>
 					<h2>Мы <span>Любим</span> <br>ТО, ЧТО МЫ ДЕЛАЕМ  </h2>
-					<button>заказать сейчас</button>
+					<button><a href="#">заказать сейчас</a></button>
 				</div>
 
 				
@@ -113,7 +115,7 @@
 					<p>небольшой сайт, состоящий из одной веб-страниц c основной информацией об организации</p>
 					<span><p>20.000р</p></span>
 				</div>
-				<div class="content_block content_block2">
+				<div class="content_block content_block_m content_block2">
 					<img src="img/icons/web-site 1.png" alt="">
 					<h5>лендинг</h5>
 					<p>веб-страница, основной задачей которой является сбор контактных данных целевой аудитории</p>
